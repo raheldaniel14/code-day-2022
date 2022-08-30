@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#header {
+  background-color: #C7E0C2;
+}
+
+#headerTitle {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-bar {
+  background-color: rgb(147, 155, 147);
+  background-repeat: no-repeat;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-bar a {
+  color: #FBFDFB;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: black;
+  background-color: white;
+}
+
+.services {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #eee;
+  padding: 10px 20px;
+}
+
+.services h2 {
+  padding-left: 20px;
+}
+
+.rooms {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #eee;
+  padding: 10px 20px;
+}
+
+.rooms h2 {
+  padding-left: 20px;
+}
+
+.rooms img {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#footer {
+  height: 50px;
+  background-color: #C7E0C2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
